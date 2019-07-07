@@ -1,0 +1,207 @@
+﻿html { overflow-x: hidden; }
+a{
+	text-decoration:none;
+	color:#fcac45;
+}
+a:hover{
+	text-decoration:none;
+	color:#fcac45;
+}
+ul{
+	list-style:none;
+}
+body{
+	font-size:14px;
+	line-height:1.5;
+	color:#999999;
+	font-family:Times New Roman, Arial;
+}
+/***************  Header        *************************/
+.top-block{
+	background:#FF FA FA;
+}
+header{
+	padding-top:10px;
+	padding-bottom:20px;
+}
+.logo1{
+	color:#fcac45;
+	font-size:24px;
+	font-family:'Comfortaa', cursive;
+	text-transform:uppercase;
+}
+.logo h1{
+	color:#999999;
+	text-transform:uppercase;
+	font-family: 'Comfortaa', cursive;
+}
+.navbar li{font-size:16px;}
+.yellow{
+	color:#fcac45;
+}
+.logo p{
+	font-size:20px;
+	text-transform:none;
+	cursor:pointer;
+	margin-bottom:100px;
+}
+/******************** LightGrey  *************/
+.LightGrey{
+	background:#D3D3D3;
+}
+.LightGrey h3{
+	color:#5e6874;
+	font-size:26px;
+	padding-bottom:30px;
+	font-family: 'Macondo', cursive;
+}
+.LightGrey h3:hover{
+	color:#373f49;
+}
+.LightGrey img{
+	margin:10px 0;
+}
+/******************** NavajoWhite  *************/
+.NavajoWhite{
+	background:#FFDEAD;
+}
+.NavajoWhite h3{
+	color:#5e6874;
+	font-size:26px;
+	padding-bottom:30px;
+	font-family: 'Macondo', cursive;
+}
+.NavajoWhite h3:hover{
+	color:#373f49;
+}
+.NavajoWhite img{
+	margin:10px 0;
+}
+/******************** footer  *************/
+#footer{
+	background:#696969;
+}
+#footer p{
+	font-size:14px;
+	color:#ffffff;
+	margin:40px 0 40px 40px;
+}
+#footer ul li{
+	padding-right:24px;
+	display:inline-block;
+	margin-top:30px;
+}
+
+/**************** АДАПТИВ *********************/
+/****************   Смартфон 3.5*****************************/
+@media(min-width:0px) and (max-width:320px){
+	.logo{
+	font-size:34px;
+	margin-left:10px;
+	}
+	.navbar-nav{margin-left:10px;}
+	.logo h1{margin-top:-30px;}
+	.simon img{
+	width:200px;
+	height:200px;
+	}
+	.NavajoWhite img{ 
+	width:280px;
+	position: relative;
+	}
+	.LightGrey img{
+	width:280px;
+	position:relative;
+	}
+	#footer p{
+	margin:10px 0 0 0;
+	}
+	#footer ul li{
+	padding-right:6px;
+	margin-top:2px;
+	margin-left:4px;
+	}
+}
+/****************   Смартфон 5.5*****************************/
+@media(min-width:321px) and (max-width:480px){
+	.logo{
+	font-size:34px;
+	margin-left:10px;
+	}
+	.navbar-nav{margin-left:10px;}
+	.logo h1{margin-top:-20px;}
+	.NavajoWhite img{ 
+	width:400px;
+	position: relative;
+	margin-left:20px;
+	}
+	.LightGrey img{
+	width:400px;
+	position:relative;
+	margin-left:20px;
+	}
+	#footer p{
+	margin-top:20px;
+	font-size:20px;
+	}
+	#footer ul li{
+	padding-right:6px;
+	margin-top:-20px;
+	}
+}
+/****************   Планшет  *****************************/
+@media(min-width:481px) and (max-width:768px){
+	.logo{
+	font-size:34px;
+	margin-left:10px;
+	}
+	nav a{
+	font-size:14px;
+	margin-left:-8px;
+	}
+	.logo h1{
+	margin-top:-20px;
+	}
+	.NavajoWhite img{ 
+	position: relative;
+	margin-left:100px;
+	}
+	.LightGrey img{
+	position:relative;
+	margin-left:100px;
+	}
+	#footer p{
+	margin-top:20px;
+	font-size:22px;
+	}
+	#footer ul li{
+	padding-right:6px;
+	}
+}
+/****************   Ноутбук  *****************************/
+@media(min-width:769px) and (max-width:992px){
+	.logo{
+	font-size:34px;
+	}
+	.navbar-nav{margin-left:10px;}
+	.logo h1{
+	margin-top:-20px;
+	}
+	.simon img{
+	width:200px;
+	height:200px;
+	}
+	.NavajoWhite img{ 
+	width:280px;
+	position: relative;
+	}
+	.LightGrey img{
+	width:280px;
+	position:relative;
+	}	
+}
+
+
+
+
+
